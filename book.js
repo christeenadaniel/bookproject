@@ -10,7 +10,7 @@ function addBook(){
         book ={bookId,bname,author,discrip}
         localStorage.setItem(bname,JSON.stringify(book))
         alert("Book added successfully")
-        window.location='addBook.html'
+        window.location='index.html'
     }   
 }
 
